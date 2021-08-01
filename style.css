@@ -1,5 +1,40 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: lightgray;
+}
+
+#title, #sub-title, #img-caption, #tribute-link, #tribute-info{
+    text-align: center;
+}
+
+#about{
+    text-align: justify;
+}
+
+#tribute-info ul{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+#tribute-info ul li{
+    font-size: 12px;
+    text-align: left;
+}
+
 #img-div img{
     display: block;
     max-width: 80%;
     margin: auto;
 }
+
+#tribute-info{
+    padding: 4em;
+}
+
+
+
+
